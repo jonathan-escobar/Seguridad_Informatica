@@ -1,0 +1,27 @@
+# Ignorar archivos generados
+*.o
+*.a
+*.so
+*.out
+*.log
+*.png
+*.txt
+*.swp
+*.tmp
+*.pid
+*.gz
+*.zip
+*.tar
+*.rar
+
+# Ignorar directorios generados
+screenshots/
+build/
+dist/
+
+# Ignorar el archivo ejecutable
+keylogger
+
+# Permitir solo archivos específicos
+!README.md
+!keylogger.c
