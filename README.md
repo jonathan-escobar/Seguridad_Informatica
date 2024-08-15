@@ -1,6 +1,6 @@
 # KeyLogger con Captura de Pantalla
 
-Este proyecto es un keylogger que también toma capturas de pantalla periódicas. El keylogger registra las teclas presionadas y guarda la información en un archivo de registro. Además, toma capturas de pantalla cada 5 segundos y las guarda en una carpeta específica.
+Este proyecto es un keylogger que también toma capturas de pantalla periódicas. El keylogger registra las teclas presionadas y guarda la información en un archivo de registro. Además, toma capturas de pantalla cada 60 segundos y las guarda en una carpeta específica.
 
 ## Requisitos
 
@@ -41,12 +41,13 @@ Registro de Teclas: El programa detecta eventos de teclas presionadas y liberada
 Captura de Pantalla: Cada 5 segundos, el programa toma una captura de pantalla utilizando gnome-screenshot y la guarda en la carpeta screenshots.
 
 # Notas
-
-Permisos: Necesitas permisos de superusuario para acceder al dispositivo de entrada.
+Permisos:  Necesitas permisos de superusuario para acceder al dispositivo de entrada.
 Seguridad: Este software está destinado para fines educativos. Asegúrate de cumplir con las leyes y regulaciones locales al usar herramientas de monitoreo de entrada.
-Problemas Conocidos
+
+### Problemas Conocidos
 Capturas de Pantalla Negras: Si las capturas de pantalla resultan negras, verifica que gnome-screenshot esté funcionando correctamente y que tu entorno de escritorio no esté bloqueando las capturas de pantalla.
-Contacto
+
+### Contacto
 Para cualquier pregunta o sugerencia, por favor contacta al desarrollador.
 
 Nota: Asegúrate de usar este software de manera ética y legal. El uso no autorizado de keyloggers puede ser ilegal y contra las políticas de muchas organizaciones.
